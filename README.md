@@ -70,5 +70,75 @@ Before you begin, ensure you have the following installed on your machine:
 
 This version maintains the correct formatting and includes all necessary steps for setting up and running your project. Let me know if you need further modifications!
 
+## Directory Structure
 
+Below is the directory structure of the **KAYAN Digital Services Portfolio** application with brief explanations for each folder and file.
+   
+   ```plaintext
+
+      ├───.idea
+      │   └───dataSources
+      ├───src
+      │   ├───main
+      │   │   ├───java
+      │   │   │   └───com
+      │   │   │       └───ebi
+      │   │   │           └───kayanProject
+      │   │   │               ├───controller
+      │   │   │               ├───entity
+      │   │   │               ├───exception
+      │   │   │               ├───model
+      │   │   │               ├───repo
+      │   │   │               ├───securityConfig
+      │   │   │               └───service
+      │   │   └───resources
+      │   │       ├───static
+      │   │       │   ├───css
+      │   │       │   ├───fonts
+      │   │       │   ├───images
+      │   │       │   └───js
+      │   │       └───templates
+      │   └───test
+      │       └───java
+      │           └───com
+      │               └───ebi
+      │                   └───kayanProject
+      └───target
+          ├───classes
+          │   ├───com
+          │   │   └───ebi
+          │   │       └───kayanProject
+          │   │           ├───controller
+          │   │           ├───entity
+          │   │           ├───exception
+          │   │           ├───model
+          │   │           ├───repo
+          │   │           ├───securityConfig
+          │   │           └───service
+          │   ├───static
+          │   │   ├───css
+          │   │   ├───fonts
+          │   │   ├───images
+          │   │   └───js
+          │   └───templates
+          └───generated-sources
+              └───annotations
+```
+
+### Key Directories and Explanation
+
+- **`.idea`**: IntelliJ project configuration files.
+- **`src/main/java`**: Contains the Java code for your application, organized by package.
+  - **`controller`**: Handles HTTP requests and responses.
+  - **`entity`**: Represents the data models/entities.
+  - **`exception`**: Handles custom exceptions.
+  - **`model`**: Defines additional data models (DTOs, ViewModels, etc.).
+  - **`repo`**: Contains repository interfaces for database operations.
+  - **`securityConfig`**: Manages security-related configurations (e.g., authentication).
+  - **`service`**: Contains the business logic for the application.
+- **`src/main/resources`**: Stores static assets, templates, and configuration files.
+  - **`static`**: Contains static files (CSS, JS, fonts, images).
+  - **`templates`**: Stores HTML templates (if using Thymeleaf or similar templating engine).
+- **`src/test`**: Holds test cases for the application.
+- **`target`**: Generated files, compiled classes, and resources after the build.
 
