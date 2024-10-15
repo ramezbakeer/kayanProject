@@ -16,6 +16,7 @@ For customers utilizing legacy systems, on-premise data centers, or cloud soluti
 
 ## Technologies Used
 - **Spring MVC**: For handling the web layer and managing the application flow.
+- **Spring Security**:To secure senstive data and for Authentcation and Password Encryption
 - **Thymeleaf**: As the template engine for rendering dynamic web pages.
 - **JPA**: For ORM (Object-Relational Mapping) to manage database interactions.
 - **MySQL**: For the relational database management system.
