@@ -50,12 +50,12 @@ Before you begin, ensure you have the following installed on your machine:
 # Configuration
 
 ## Set up the Database
-1. **Create a MySQL database** named `kayan_db`.
+1. **Create a MySQL database** named `kayaan`.
 
 2. **Update the `src/main/resources/application.properties` file** with your database connection details:
 
    ```properties
-   spring.datasource.url=jdbc:mysql://localhost:3306/kayan_db
+   spring.datasource.url=jdbc:mysql://localhost:3306/kayaan
    spring.datasource.username=your_username
    spring.datasource.password=your_password
 
